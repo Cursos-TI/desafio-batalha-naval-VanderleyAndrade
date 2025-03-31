@@ -36,5 +36,27 @@ int main() {
     // 1 1 1 1 1
     // 0 0 1 0 0
 
+ int tabuleiro[10][10]= {0};
+ 
+ tabuleiro [2][3] = 3;
+ tabuleiro [2][4] = 3;
+ tabuleiro [2][5] = 3;
+ 
+ tabuleiro [5][6] = 3;
+ tabuleiro [6][6] = 3;
+ tabuleiro [7][6] = 3;
+ printf ("  A B C D E F G H I J \n");
+ for (int i = 0; i < 10; i++)
+ { printf ("%d ",i+1);
+    for (int j = 0; j < 10; j++)
+    {
+    printf("%d ",tabuleiro[i][j]);
+    }
+    printf ("\n");
+    
+ }
+ 
+
+
     return 0;
 }
